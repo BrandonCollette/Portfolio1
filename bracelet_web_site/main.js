@@ -4,8 +4,9 @@ function initializeApp() {
 
     changeBackgroundImage();
     $('.imageTable').on('click',selectProduct);
+    $('.fa-window-close').on('click',closeWindow);
 
-    var imageNumber = 1;
+    var imageNumber = 0;
 
     // the main background image keeps changing
     function changeBackgroundImage(){
@@ -13,12 +14,11 @@ function initializeApp() {
             imageNumber+=1;
             switch (imageNumber) {
                 case 1:
-                    $('#back4').fadeOut(3000);
-                    $('#back1').fadeIn(3000);
+                    $('#back1').fadeIn(2000);
+                    $('#back4').fadeOut(2000);
                     break;
                 case 2:
-                    $('#back1').fadeOut(3000);
-                    $('#back2').fadeIn(3000);
+                    $('#back2').fadeIn(2000);
                     break;
                 case 3:
                     $('#back2').fadeOut(3000);
@@ -42,7 +42,12 @@ function initializeApp() {
     function selectProduct(){
         var clickedImage = $(this).attr('src');
         console.log("this is the id of what you clicked: ", clickedImage);
-        $('#biggerImage').attr('src',clickedImage);
+        $('#productImage').css('background-image','url("'+clickedImage+'")');
+        $('#productPage').removeClass('hidden');
+    }
+
+    function closeWindow(){
+        $('#productPage').addClass('hidden');
     }
 
 

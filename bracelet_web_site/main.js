@@ -14,11 +14,11 @@ function initializeApp() {
             imageNumber+=1;
             switch (imageNumber) {
                 case 1:
-                    $('#back1').fadeIn(2000);
-                    $('#back4').fadeOut(2000);
+                    $('#back1').fadeIn(3000);
+                    $('#back4').fadeOut(3000);
                     break;
                 case 2:
-                    $('#back2').fadeIn(2000);
+                    $('#back2').fadeIn(3000);
                     break;
                 case 3:
                     $('#back2').fadeOut(3000);

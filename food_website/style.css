@@ -278,3 +278,45 @@ input{
 #contactMessage{
     height:15vh;
 }
+#galleryDisplay{
+    height:75vh;
+    width:126vh;
+    position:relative;
+    bottom:115vh;
+    left:58vh;
+    box-shadow:8px 8px 8px black;
+    display:flex;
+    overflow:hidden;
+}
+#galleryContainer img{
+    height:100%;
+    width:100%;
+}
+#arrowLeft{
+    position:absolute;
+    font-size:6vh;
+    left:2vh;
+    top:34vh;
+    color:white;
+    box-shadow:4px 4px 4px black;
+    border-radius:50px;
+    text-shadow:4px 4px 4px black;
+    background-color:rgba(100,100,100,0.4);
+    cursor:pointer;
+}
+#arrowRight{
+    position:absolute;
+    font-size:6vh;
+    top:34vh;
+    right:2vh;
+    color:white;
+    box-shadow:4px 4px 4px black;
+    border-radius:50px;
+    text-shadow:4px 4px 4px black;
+    background-color:rgba(100,100,100,0.4);
+    cursor:pointer;
+}
+#galleryContainer{
+    position:relative;
+    display:flex;
+}

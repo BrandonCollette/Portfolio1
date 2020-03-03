@@ -1,0 +1,322 @@
+@keyframes sideAnimation{
+    from{
+        bottom:100vh;
+    }
+    to{
+        bottom:0vh;
+    }
+}
+@keyframes letterAnimation {
+    from {
+        opacity: 0;
+        letter-spacing: 4px;
+    }
+    to {
+        opacity: 1;
+        letter-spacing: 0;
+    }
+}
+@keyframes detailsAnimation{
+    from{
+        padding-top:35vh;
+    }
+    to{
+        padding-top:30vh;
+    }
+}
+body{
+    margin:0;
+    padding:0;
+    background-image: url(images/rest-background.jpg);
+    background-repeat:no-repeat;
+    background-size:202.8vh 100vh;
+    background-color:beige;
+}
+#sideBar{
+    animation-name:sideAnimation;
+    animation-duration:1.5s;
+    position:fixed;
+    padding:0;
+    margin:0;
+    background-color:#291212;
+    height:100vh;
+    width:45vh;
+    color:white;
+    font-family:'Open Sans', sans-serif;
+    text-align:center;
+}
+#sideLogo{
+    padding:3vh;
+    padding-bottom:4vh;
+    cursor:pointer;
+}
+#sideLogo img{
+    height:30vh;
+    width:30vh;
+}
+#sideButtons{
+    line-height:5;
+    cursor:pointer;
+}
+#menuButton:hover{
+    background-color:white;
+    color:black;
+}
+#aboutButton:hover{
+    background-color:white;
+    color:black;
+}
+#galleryButton:hover{
+    background-color:white;
+    color:black;
+}
+#contactButton:hover{
+    background-color:white;
+    color:black;
+}
+#address{
+    padding-top:10vh;
+}
+#phoneNumber{
+    color:#adab2d
+}
+#reserveButton{
+    font-family:'Open Sans', sans-serif;
+    height:6vh;
+    width:20vh;
+    cursor:pointer;
+}
+#textImage{
+    color:white;
+    font-family:'Open Sans', sans-serif;
+    position:absolute;
+    top:40vh;
+    left:80vh;
+    font-size:7vh;
+    text-shadow:1px 4px 2px black;
+    animation: letterAnimation 2s ease;
+}
+#food{
+    position:absolute;
+    top:100vh;
+    width:155vh;
+    left:45vh;
+    line-height:4;
+    background-color:#faeee1;
+    padding-top:10vh;
+    font-family:'Open Sans', sans-serif;
+}
+hr{
+    width:110vh;
+}
+.foodTitle{
+    padding-left:22vh;
+    padding-top:10vh;
+}
+.foodList{
+    display:flex;
+    flex-wrap:wrap;
+    padding-left:28vh
+}
+.list{
+    padding:2vh;
+    width:30vh;
+}
+#hotTitle{
+    font-family:'Open Sans', sans-serif;
+}
+#foodPics{
+    height:39vh;
+    width:146vh;
+    margin:0;
+    padding:0;
+    position:absolute;
+    top:120vh;
+    display:flex;
+    flex-wrap:wrap;
+    z-index:+1;
+    left:53vh;
+
+}
+#foodPics img{
+    height:35vh;
+    width:35vh;
+    padding:2px;
+
+}
+#hotTitle{
+    z-index: +1;
+}
+#item1{
+    color:white;
+}
+.details{
+    color:black;
+    background-color:#faeee1;
+    font-size:2.5vh;
+    font-family:'Open Sans', sans-serif;
+    width:35vh;
+    height:5vh;
+    margin:2px;
+}
+#foodGroup{
+    position:absolute;
+    display:flex;
+    flex-wrap:wrap;
+    text-align:center;
+    top:0vh;
+    left:-0.25vh;
+    cursor:pointer;
+}
+#details1hov{
+    width:35vh;
+    z-index:+5;
+    margin:2px;
+    padding-top:35vh;
+    transition:padding-top 0.35s;
+}
+#details2hov{
+    width:35vh;
+    z-index:+5;
+    margin:2px;
+    padding-top:35vh;
+    transition:padding-top 0.35s;
+}
+#details3hov{
+    width:35vh;
+    z-index:+5;
+    margin:2px;
+    padding-top:35vh;
+    transition:padding-top 0.35s;
+}
+#details4hov{
+    width:35vh;
+    z-index:+5;
+    margin:2px;
+    padding-top:35vh;
+    transition:padding-top 0.35s;
+}
+#details1hov:hover{
+    padding-top:29.7vh;
+}
+#details2hov:hover{
+    padding-top:29.7vh;
+}
+#details3hov:hover{
+    padding-top:29.7vh;
+}
+#details4hov:hover{
+    padding-top:29.7vh;
+}
+#burgerBackground{
+    margin:0;
+    padding:0;
+    height:100vh;
+    width:200.6vh;
+}
+#burgerBackground img{
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+    object-fit:fill;
+}
+a:link, a:visited {
+    color:white;
+    text-decoration: none;
+    cursor: pointer;
+}
+#hideDetails{
+    background-color:#faeee1;
+    height:5vh;
+    width:141vh;
+    z-index: +5;
+}
+#contactBackground{
+    margin:0;
+    padding:0;
+    height:100vh;
+    width:200.6vh;
+}
+#contactBackground img{
+    height:100%;
+    width:100%;
+}#answerQuestions{
+     padding-left:85vh;
+     padding-top:10vh;
+     font-family:'Open Sans', sans-serif;
+ }
+#contactH{
+    width:100%;
+    padding:0;
+    margin:0;
+    padding-top:10vh;
+}
+#leftForm{
+    display:flex;
+    flex-wrap:wrap;
+    width:80vh;
+    position:absolute;
+    left:79vh;
+}
+#submitButton{
+    position:absolute;
+    top:63vh;
+    margin-bottom:20vh;
+    height:8vh;
+    width:15vh;
+    background-color:black;
+    color:white;
+    border-color:black;
+    font-family:'Open Sans', sans-serif;
+}
+input{
+    width:80vh;
+    padding:2vh;
+    margin-bottom:2vh;
+}
+#contactMessage{
+    height:15vh;
+}
+#galleryDisplay{
+    height:75vh;
+    width:126vh;
+    position:relative;
+    bottom:115vh;
+    left:58vh;
+    box-shadow:8px 8px 8px black;
+    display:flex;
+    overflow:hidden;
+}
+#galleryContainer img{
+    height:100%;
+    width:100%;
+}
+#arrowLeft{
+    position:absolute;
+    font-size:6vh;
+    left:2vh;
+    top:34vh;
+    color:white;
+    box-shadow:4px 4px 4px black;
+    border-radius:50px;
+    text-shadow:4px 4px 4px black;
+    background-color:rgba(100,100,100,0.4);
+    cursor:pointer;
+}
+#arrowRight{
+    position:absolute;
+    font-size:6vh;
+    top:34vh;
+    right:2vh;
+    color:white;
+    box-shadow:4px 4px 4px black;
+    border-radius:50px;
+    text-shadow:4px 4px 4px black;
+    background-color:rgba(100,100,100,0.4);
+    cursor:pointer;
+}
+#galleryContainer{
+    position:relative;
+    display:flex;
+}

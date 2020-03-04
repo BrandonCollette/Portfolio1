@@ -100,11 +100,12 @@ body{
 }
 #textImage{
     color:white;
-    font-family:'Open Sans', sans-serif;
+    font-family: 'BioRhyme', serif;
+    font-weight:bold;
     position:absolute;
     top:40vh;
     left:80vh;
-    font-size:7vh;
+    font-size:5.5vh;
     text-shadow:1px 4px 2px black;
     animation: letterAnimation 2s ease;
 }

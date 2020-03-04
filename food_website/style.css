@@ -58,6 +58,18 @@ body{
     line-height:5;
     cursor:pointer;
 }
+#menuButton{
+    transition:background-color 0.25s;
+}
+#aboutButton{
+    transition:background-color 0.25s;
+}
+#galleryButton{
+    transition:background-color 0.25s;
+}
+#contactButton{
+    transition:background-color 0.25s;
+}
 #menuButton:hover{
     background-color:white;
     color:black;

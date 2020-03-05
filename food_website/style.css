@@ -65,30 +65,38 @@ body{
     cursor:pointer;
 }
 #menuButton{
-    transition:background-color 0.25s;
+    text-shadow:-130px 0px 0px #291212;
+    transition:background-color 0.25s,text-shadow 0.25s;
 }
 #aboutButton{
-    transition:background-color 0.25s;
+    text-shadow:-130px 0px 0px #291212;
+    transition:background-color 0.25s,text-shadow 0.25s;
 }
 #galleryButton{
-    transition:background-color 0.25s;
+    text-shadow:-130px 0px 0px #291212;
+    transition:background-color 0.25s,text-shadow 0.25s;
 }
 #contactButton{
-    transition:background-color 0.25s;
+    text-shadow:-130px 0px 0px #291212;
+    transition:background-color 0.25s,text-shadow 0.25s;
 }
 #menuButton:hover{
+    text-shadow:0px 1px 1px black;
     background-color:white;
     color:black;
 }
 #aboutButton:hover{
+    text-shadow:0px 1px 1px black;
     background-color:white;
     color:black;
 }
 #galleryButton:hover{
+    text-shadow:0px 1px 1px black;
     background-color:white;
     color:black;
 }
 #contactButton:hover{
+    text-shadow:0px 1px 1px black;
     background-color:white;
     color:black;
 }

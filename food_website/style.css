@@ -54,6 +54,11 @@ body{
 #sideLogo img{
     height:30vh;
     width:30vh;
+    transition:box-shadow 0.2s;
+    box-shadow:0px 0px 0px 0px  white;
+}
+#sideLogo img:hover{
+    box-shadow:0px 0px 20px 2px  white;
 }
 #sideButtons{
     line-height:5;

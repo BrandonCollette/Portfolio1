@@ -31,6 +31,7 @@ body{
     background-repeat:no-repeat;
     background-size:202.8vh 100vh;
     background-color:beige;
+    overflow-x: hidden;
 }
 #sideBar{
     animation-name:sideAnimation;
@@ -87,7 +88,7 @@ body{
     color:black;
 }
 #address{
-    padding-top:10vh;
+    padding-top:7vh;
 }
 #phoneNumber{
     color:#adab2d
@@ -97,6 +98,15 @@ body{
     height:6vh;
     width:20vh;
     cursor:pointer;
+    position:absolute;
+    bottom:2vh;
+    left:12.5vh;
+    transition:color 0.3s,bottom 0.3s,box-shadow 0.3s;
+}
+#reserveButton:hover{
+    color:#291212;
+    bottom:4vh;
+    box-shadow:8px 8px 5px black;
 }
 #textImage{
     color:white;
@@ -283,12 +293,12 @@ a:link, a:visited {
     border-color:black;
     font-family:'Open Sans', sans-serif;
     cursor:pointer;
-    transition:color 0.5s,top 0.5s,box-shadow 0.5s;
+    transition:color 0.3s,top 0.3s,box-shadow 0.3s;
 }
 #submitButton:hover{
     color:lightblue;
-    top:64.5vh;
-    box-shadow:-8px -8px 5px #5B504E;
+    top:61vh;
+    box-shadow:8px 8px 5px #5B504E;
 }
 input{
     width:80vh;
@@ -323,6 +333,7 @@ input{
     text-shadow:4px 4px 4px black;
     background-color:rgba(100,100,100,0.4);
     cursor:pointer;
+    transition:box-shadow 0.2s,top 0.2s;
 }
 #arrowRight{
     position:absolute;
@@ -335,6 +346,15 @@ input{
     text-shadow:4px 4px 4px black;
     background-color:rgba(100,100,100,0.4);
     cursor:pointer;
+    transition:box-shadow 0.2s,top 0.2s;
+}
+#arrowLeft:hover{
+    box-shadow:8px 8px 6px black;
+    top:33vh;
+}
+#arrowRight:hover{
+    box-shadow:8px 8px 6px black;
+    top:33vh;
 }
 #galleryContainer{
     position:relative;

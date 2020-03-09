@@ -95,11 +95,13 @@ function initializeApp() {
         $('.cardbackimage').removeClass('hidden');
     }
 
+
     function shuffleCards(){
-        var randomNumber = Math.floor(Math.random()*19);
         var shuffleNumber=1;
         for(shuffleNumber;shuffleNumber<19;shuffleNumber++){
             console.log('shuffle number: ',shuffleNumber);
+            var randomNumber =Math.floor(Math.random()*19);
+            console.log('random number: ',randomNumber);
             if(randomNumber===shuffleNumber){
                 randomNumber=Math.floor(Math.random()*19);
             }
@@ -107,6 +109,7 @@ function initializeApp() {
             var randomNumberSrc = $('#'+randomNumber+' img').attr('src');
             $('#'+shuffleNumber+' img').attr('src',randomNumberSrc);
             $('#'+randomNumber+' img').attr('src',shuffleNumberSrc);
+
         }
     }
 }

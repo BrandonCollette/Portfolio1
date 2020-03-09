@@ -1,4 +1,3 @@
-
 $(document).ready(initializeApp);
 
 function initializeApp() {
@@ -25,28 +24,31 @@ function initializeApp() {
         jqueryObject.addClass('hidden');
 
         if (firstCardClicked === null) {
-            firstCardClicked = jqueryObject;
-            firstImg = $(firstCardClicked).parent().attr('id');
-            firsthiddencard = firstCardClicked;
+            firstCardClicked = jqueryObject.next();
+            console.log('first card clicked: ',firstCardClicked);
+            firstImg = $(firstCardClicked).children('img').attr('src');
+            console.log('first card clicked: ', firstImg);
+            firsthiddencard = jqueryObject;
         } else {
-            secondCardClicked = jqueryObject;
-            secondImg = $(secondCardClicked).parent().attr('id');
-            secondhiddencard = secondCardClicked;
+            secondCardClicked = jqueryObject.next();
+            secondImg = $(secondCardClicked).children('img').attr('src');
+            secondhiddencard = jqueryObject;
             attempts += 1;
             console.log('attempts: ', attempts);
 
-            if (firstImg == secondImg) {
+            if (firstImg === secondImg) {
                 matches += 1;
                 displayStats();
                 console.log('cards match!  matches: ', matches);
-                if (matches == max_matches) {
+                if (matches === max_matches) {
                     $('.modal').css('display', 'block');
                     var modal = document.getElementById("myModal");
                     var modalbutton = document.getElementById("mbutton");
                     window.onclick = function (event) {
-                        if (event.target == modal || event.target == modalbutton) {
+                        if (event.target === modal || event.target === modalbutton) {
                             modal.style.display = 'none';
                             resetStats();
+                            shuffleCards();
                         }
                     };
 
@@ -93,20 +95,18 @@ function initializeApp() {
         $('.cardbackimage').removeClass('hidden');
     }
 
-
-    function randomNumber() {
-        var number = Math.floor(Math.random() * 9) ;
-        return number;
-    }
-
     function shuffleCards(){
-        var names = ["brett","cody","andy","bill","dan","scott","timd","timh","tj"];
-        var cardCounter=0;
-        for(cardCounter=1;cardCounter<19;cardCounter++) {
-            var firstImage= names[randomNumber()];
-            console.log('first image: ',firstImage);
-            var secondImage = $('#'+firstImage+':nth-child(1)').attr('src');
-            $('#'+secondImage).css('background-image','url('+firstImage+')');
+        var randomNumber = Math.floor(Math.random()*19);
+        var shuffleNumber=1;
+        for(shuffleNumber;shuffleNumber<19;shuffleNumber++){
+            console.log('shuffle number: ',shuffleNumber);
+            if(randomNumber===shuffleNumber){
+                randomNumber=Math.floor(Math.random()*19);
+            }
+            var shuffleNumberSrc = $('#'+shuffleNumber+' img').attr('src');
+            var randomNumberSrc = $('#'+randomNumber+' img').attr('src');
+            $('#'+shuffleNumber+' img').attr('src',randomNumberSrc);
+            $('#'+randomNumber+' img').attr('src',shuffleNumberSrc);
         }
     }
 }

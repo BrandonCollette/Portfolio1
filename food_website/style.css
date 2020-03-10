@@ -29,7 +29,7 @@ body{
     padding:0;
     background-image: url(images/rest-background.jpg);
     background-repeat:no-repeat;
-    background-size:202.8vh 100vh;
+    background-size:cover;
     background-color:beige;
     overflow-x: hidden;
 }
@@ -40,7 +40,7 @@ body{
     padding:0;
     margin:0;
     background-color:#291212;
-    height:100vh;
+    height:100%;
     width:45vh;
     color:white;
     font-family:'Open Sans', sans-serif;
@@ -64,6 +64,7 @@ body{
 #sideButtons{
     line-height:10vh;
     cursor:pointer;
+    font-size:2vh;
 }
 #menuButton{
     text-shadow:-130px 0px 0px #291212;
@@ -139,7 +140,7 @@ body{
 #food{
     position:absolute;
     top:100vh;
-    width:155vh;
+    width:100%;
     left:45vh;
     line-height:4;
     background-color:#faeee1;
@@ -147,7 +148,7 @@ body{
     font-family:'Open Sans', sans-serif;
 }
 hr{
-    width:110vh;
+    width:100%;
 }
 .foodTitle{
     padding-left:22vh;

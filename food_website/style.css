@@ -45,6 +45,7 @@ body{
     color:white;
     font-family:'Open Sans', sans-serif;
     text-align:center;
+    z-index:+10;
 }
 #sideLogo{
     padding:3vh;
@@ -61,7 +62,7 @@ body{
     box-shadow:0px 0px 20px 2px  white;
 }
 #sideButtons{
-    line-height:5;
+    line-height:10vh;
     cursor:pointer;
 }
 #menuButton{
@@ -102,12 +103,15 @@ body{
 }
 #address{
     padding-top:7vh;
+    font-size:2vh;
 }
 #phoneNumber{
-    color:#adab2d
+    color:#adab2d;
+    font-size:2vh;
 }
 #reserveButton{
     font-family:'Open Sans', sans-serif;
+    font-size:2vh;
     height:6vh;
     width:20vh;
     cursor:pointer;

@@ -448,4 +448,7 @@ input{
     #foodPics{
         left:13%;
     }
+    #food{
+        left:0;
+    }
 }

@@ -151,24 +151,26 @@ hr{
     width:100%;
 }
 .foodTitle{
-    padding-left:22vh;
+    padding-left:20vh;
     padding-top:10vh;
+    font-size:2.5vh;
 }
 .foodList{
     display:flex;
     flex-wrap:wrap;
-    padding-left:28vh
+    padding-left:20vh;
+    font-size:2vh;
 }
 .list{
     padding:2vh;
-    width:30vh;
+    width:23%;
 }
 #hotTitle{
     font-family:'Open Sans', sans-serif;
 }
 #foodPics{
     height:39vh;
-    width:146vh;
+    width:75%;
     margin:0;
     padding:0;
     position:absolute;
@@ -176,12 +178,12 @@ hr{
     display:flex;
     flex-wrap:wrap;
     z-index:+1;
-    left:53vh;
+    left:25%;
 
 }
 #foodPics img{
     height:35vh;
-    width:35vh;
+    width:24%;
     padding:2px;
 
 }
@@ -196,9 +198,10 @@ hr{
     background-color:#faeee1;
     font-size:2.5vh;
     font-family:'Open Sans', sans-serif;
-    width:35vh;
-    height:5vh;
-    margin:2px;
+    width:36.33vh;
+    height:6vh;
+    margin:0;
+    padding:0;
 }
 #foodGroup{
     position:absolute;
@@ -210,28 +213,28 @@ hr{
     cursor:pointer;
 }
 #details1hov{
-    width:35vh;
+    width:97%;
     z-index:+5;
     margin:2px;
     padding-top:35vh;
     transition:padding-top 0.35s;
 }
 #details2hov{
-    width:35vh;
+    width:97%;
     z-index:+5;
     margin:2px;
     padding-top:35vh;
     transition:padding-top 0.35s;
 }
 #details3hov{
-    width:35vh;
+    width:97%;
     z-index:+5;
     margin:2px;
     padding-top:35vh;
     transition:padding-top 0.35s;
 }
 #details4hov{
-    width:35vh;
+    width:97%;
     z-index:+5;
     margin:2px;
     padding-top:35vh;
@@ -253,7 +256,7 @@ hr{
     margin:0;
     padding:0;
     height:100vh;
-    width:200.6vh;
+    width:280vh;
 }
 #burgerBackground img{
     height:100%;
@@ -277,15 +280,16 @@ a:link, a:visited {
     margin:0;
     padding:0;
     height:100vh;
-    width:200.6vh;
+    width:270vh;
 }
 #contactBackground img{
     height:100%;
     width:100%;
 }#answerQuestions{
-     padding-left:85vh;
+     padding-left:20%;
      padding-top:10vh;
      font-family:'Open Sans', sans-serif;
+     font-size:4vh;
  }
 #contactH{
     width:100%;
@@ -298,11 +302,11 @@ a:link, a:visited {
     flex-wrap:wrap;
     width:80vh;
     position:absolute;
-    left:79vh;
+    left:17%;
 }
 #submitButton{
     position:absolute;
-    top:63vh;
+    top:100%;
     margin-bottom:20vh;
     height:8vh;
     width:15vh;
@@ -315,7 +319,7 @@ a:link, a:visited {
 }
 #submitButton:hover{
     color:lightblue;
-    top:61vh;
+    top:98%;
     box-shadow:8px 8px 5px #5B504E;
 }
 input{
@@ -330,8 +334,8 @@ input{
     height:75vh;
     width:126vh;
     position:relative;
-    bottom:115vh;
-    left:58vh;
+    bottom:135vh;
+    left:6%;
     box-shadow:8px 8px 8px black;
     display:flex;
     overflow:hidden;
@@ -377,4 +381,71 @@ input{
 #galleryContainer{
     position:relative;
     display:flex;
+}
+
+@media only screen and (max-width: 768px){
+
+    #sideBar{
+        width:100%;
+        height:10%;
+        position:fixed;
+        display:flex;
+        flex-wrap:wrap;
+    }
+    #sideLogo{
+        top:0;
+        margin:0;
+        padding:0;
+        position:absolute;
+    }
+    #sideLogo img{
+        width:12vh;
+        height:10vh;
+    }
+    #sideButtons{
+        display:flex;
+        flex-wrap:wrap;
+        left:37%;
+        position:absolute;
+        width:50%;
+    }
+    #menuButton{
+        width:15vh;
+        text-shadow:-1000px 0px 0px #291212;
+
+    }
+    #aboutButton{
+        width:15vh;
+        text-shadow:-1000px 0px 0px #291212;
+
+    }
+    #galleryButton{
+        width:15vh;
+        text-shadow:-1000px 0px 0px #291212;
+
+    }
+    #contactButton{
+        width:15vh;
+        text-shadow:-1000px 0px 0px #291212;
+    }
+    #address{
+        position:absolute;
+        left:8.5%;
+    }
+    #phoneNumber{
+        position:absolute;
+        left:8.5%;
+        top:40%;
+    }
+    #reserveButton{
+        left:85%;
+        height:8vh;
+        top:1vh;
+    }
+    #textImage{
+        left:20%;
+    }
+    #foodPics{
+        left:13%;
+    }
 }

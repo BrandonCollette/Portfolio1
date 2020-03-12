@@ -408,7 +408,7 @@ input{
     #sideButtons{
         display:block;
         left:0;
-        top:700%;
+        top:800%;
         position:absolute;
         width:100%;
         height:auto;
@@ -455,7 +455,7 @@ input{
     }
     #textImage{
         left:20%;
-        top:50%;
+        top:60%;
         font-size:300%;
         color:black;
     }

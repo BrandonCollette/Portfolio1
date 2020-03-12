@@ -393,7 +393,7 @@ input{
         display:flex;
         flex-wrap:wrap;
         position:absolute;
-
+        animation:none;
     }
     #sideLogo{
         top:0;

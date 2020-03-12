@@ -383,7 +383,7 @@ input{
     display:flex;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 1440px){
 
     #sideBar{
         width:100%;

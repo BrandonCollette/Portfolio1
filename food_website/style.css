@@ -383,7 +383,7 @@ input{
     display:flex;
 }
 
-@media only screen and (max-width: 1440px){
+@media only screen and (max-width: 980px){
     body{
         background-size:auto;
     }
@@ -408,10 +408,9 @@ input{
     #sideButtons{
         display:block;
         left:0;
-        top:420%;
+        top:700%;
         position:absolute;
         width:100%;
-
         height:auto;
 
     }
@@ -449,19 +448,20 @@ input{
         top:40%;
     }
     #reserveButton{
-        left:68.5%;
+        left:69%;
         height:10vh;
         top:0;
         position:absolute;
     }
     #textImage{
         left:20%;
-        top:20%;
+        top:50%;
         font-size:300%;
+        color:black;
     }
     #foodPics{
         left:5.5%;
-        top:90%;
+        top:120%;
         width:120%;
     }
     #foodPics img{

@@ -384,13 +384,16 @@ input{
 }
 
 @media only screen and (max-width: 1440px){
-
+    body{
+        background-size:auto;
+    }
     #sideBar{
-        width:100%;
+        width:128%;
         height:10%;
-        position:fixed;
         display:flex;
         flex-wrap:wrap;
+        position:absolute;
+
     }
     #sideLogo{
         top:0;
@@ -403,50 +406,66 @@ input{
         height:10vh;
     }
     #sideButtons{
-        display:flex;
-        flex-wrap:wrap;
-        left:37%;
+        display:block;
+        left:0;
+        top:420%;
         position:absolute;
-        width:50%;
+        width:100%;
+
+        height:auto;
+
     }
     #menuButton{
-        width:15vh;
+        width:100%;
         text-shadow:-1000px 0px 0px #291212;
+        background: linear-gradient(0deg, rgba(22,7,7,1) 0%, rgba(41,18,18,1) 4%, rgba(64,48,47,1) 39%);
 
     }
     #aboutButton{
-        width:15vh;
+        width:100%;
         text-shadow:-1000px 0px 0px #291212;
+        background: linear-gradient(0deg, rgba(22,7,7,1) 0%, rgba(41,18,18,1) 4%, rgba(64,48,47,1) 39%);
 
     }
     #galleryButton{
-        width:15vh;
+        width:100%;
         text-shadow:-1000px 0px 0px #291212;
+        background: linear-gradient(0deg, rgba(22,7,7,1) 0%, rgba(41,18,18,1) 4%, rgba(64,48,47,1) 39%);
 
     }
     #contactButton{
-        width:15vh;
+        width:100%;
         text-shadow:-1000px 0px 0px #291212;
+        background: linear-gradient(0deg, rgba(22,7,7,1) 0%, rgba(41,18,18,1) 4%, rgba(64,48,47,1) 39%);
+
     }
     #address{
         position:absolute;
-        left:8.5%;
+        left:19%;
     }
     #phoneNumber{
         position:absolute;
-        left:8.5%;
+        left:20%;
         top:40%;
     }
     #reserveButton{
-        left:85%;
-        height:8vh;
-        top:1vh;
+        left:68.5%;
+        height:10vh;
+        top:0;
+        position:absolute;
     }
     #textImage{
         left:20%;
+        top:20%;
+        font-size:300%;
     }
     #foodPics{
-        left:13%;
+        left:5.5%;
+        top:90%;
+        width:120%;
+    }
+    #foodPics img{
+        height:40%;
     }
     #food{
         left:0;

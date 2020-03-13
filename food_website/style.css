@@ -496,4 +496,20 @@ input{
     input{
         font-size:250%;
     }
+    #galleryDisplay{
+        width:84%;
+        left:22%;
+        height:100%;
+        bottom:196vh;
+    }
+    #galleryDisplay img{
+        height:40vh;
+
+    }
+    #arrowLeft{
+        left:1%;
+    }
+    #arrowRight{
+        right:1%;
+    }
 }

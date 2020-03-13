@@ -470,4 +470,30 @@ input{
     #food{
         left:0;
     }
+    .details{
+        display:none;
+    }
+    #item1{
+        display:none;
+    }
+    #food{
+        top:141vh;
+    }
+    #burgerBackground{
+        height:55vh;
+        width:128%;
+    }
+    #contactBackground{
+        height:55vh;
+        width:128%;
+    }
+    #leftForm{
+        width:100%;
+    }
+    #submitButton{
+        font-size:300%;
+    }
+    input{
+        font-size:250%;
+    }
 }

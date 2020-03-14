@@ -12,15 +12,15 @@ function initializeApp() {
     //changes the images when clicking on the image gallery
     function changeImageGallery(){
         var galleryDisplay = $('#galleryContainer');
-        displayCounter+=126;
+        displayCounter+=100;
 
         var myTimer = setInterval(function(){
             imageCounter+=2;
             console.log('image counter: ',imageCounter);
-            galleryDisplay.css('right','0'+imageCounter+'vh');
+            galleryDisplay.css('right','0'+imageCounter+'%');
             if(imageCounter===displayCounter){
                 clearInterval(myTimer);
-                if(displayCounter===756){
+                if(displayCounter===600){
                     clearInterval(myTimer);
                     imageCounter=0;
                     displayCounter=0;
@@ -34,23 +34,26 @@ function initializeApp() {
             $('#arrowRight').bind('click',changeImageGallery);
         },240);
     }
+
+
+
     function changeImageLeft(){
         var galleryDisplay = $('#galleryContainer');
         if(imageCounter===0){
-            displayCounter=756;
-            imageCounter=756;
+            displayCounter=600;
+            imageCounter=600;
         }
-        displayCounter-=126;
+        displayCounter-=100;
         console.log('display counter: ',displayCounter);
         var myTimer = setInterval(function(){
             if(imageCounter===0){
                 clearInterval(myTimer);
-                displayCounter=756;
-                imageCounter=756;
+                displayCounter=600;
+                imageCounter=600;
             }
             imageCounter-=2;
             console.log('image counter: ',imageCounter);
-            galleryDisplay.css('right','0'+imageCounter+'vh');
+            galleryDisplay.css('right','0'+imageCounter+'%');
             if(imageCounter===displayCounter){
                 clearInterval(myTimer);
             }

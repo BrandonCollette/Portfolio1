@@ -117,24 +117,23 @@ aside b{
 .h2div {
     text-align: center;
 }
-
-
 @media only screen and (max-width: 980px){
     h1{
         font-size:600%;
     }
     aside{
-        bottom:-4vh;
+        bottom:1vh;
         width:90%;
         display:flex;
-        height:20%;
         left:5%;
+        height:15%;
 
     }
     aside div{
         width:20%;
         font-size:220%;
-
+        line-height:1;
+        -webkit-text-stroke:1px white;
     }
     main{
         width:90%;
@@ -142,8 +141,12 @@ aside b{
     }
     aside b{
         position:absolute;
-        bottom:20vh;
+        bottom:15vh;
         left:40%;
         font-size:600%;
+        -webkit-text-stroke:1px white;
+    }
+    .lastImage{
+        padding-left:46.5%;
     }
 }

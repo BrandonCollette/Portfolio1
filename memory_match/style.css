@@ -6,14 +6,17 @@
 header{
     padding: 5px;
     text-shadow: 5px 5px 3px black;
-
+    height:18vh;
+    width:100%;
+    font-size:100%;
 }
-
 #container{
-
-    padding: 5px;
     display:flex;
     flex-wrap:wrap;
+}
+#container img{
+    height:25.35vh;
+    width:25.35vh;
 }
 html{
     background: url(assets/images/halobackground.jpg) no-repeat center center fixed;
@@ -23,7 +26,7 @@ html{
     background-size: cover;
 }
 h1{
-    font-size: 50px;
+    font-size: 6.3vh;
     font-style: revert;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: white;
@@ -31,20 +34,19 @@ h1{
 }
 aside{
     position:absolute;
-    width: 250px;
-    height: 615px;
+    width: 16%;
+    height: 76vh;
     padding: 5px;
     text-align: center;
-
 
 }
 main{
     position:absolute;
-    right: 8px;
-    width: 1300px;
-    height: 615px;
-    padding: 5px;
-    display:table;
+    right: 1%;
+    width: 80%;
+    height:80vh;
+    bottom:1vh;
+    border-width:4px;
 
 }
 .cardbackimage img {
@@ -67,16 +69,16 @@ main{
 aside div{
     background: rgba(0, 100, 156, 0.6);
     border-radius: 25px;
-    height: 90px;
+    height: 11.5vh;
+    width:100%;
     text-align: center;
-    font-size:23px;
+    font-size:3vh;
     border-style:solid;
     line-height:3.5;
-
 }
 aside b{
     text-align: center;
-    font-size:30px;
+    font-size:4vh;
     font-style:revert;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: gray;

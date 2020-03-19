@@ -36,6 +36,11 @@ function initializeApp() {
             attempts += 1;
             console.log('attempts: ', attempts);
 
+            $('.cardbackimage').unbind('click');
+            setTimeout(function () {
+                $('.cardbackimage').bind('click',handleCardClick);
+            },750);
+
             if (firstImg === secondImg) {
                 matches += 1;
                 displayStats();
@@ -57,13 +62,13 @@ function initializeApp() {
             } else if (firstImg !== secondImg) {
                 setTimeout(function () {
                     firsthiddencard.removeClass('hidden');
-                }, 500);
+                }, 750);
                 displayStats();
 
 
                 setTimeout(function () {
                     secondhiddencard.removeClass('hidden');
-                }, 500);
+                }, 750);
             }
 
 

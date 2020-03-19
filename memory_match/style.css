@@ -133,6 +133,7 @@ aside b{
     }
     aside div{
         width:20%;
+        height:4vh;
         font-size:220%;
         line-height:1;
         -webkit-text-stroke:1px white;
@@ -149,6 +150,10 @@ aside b{
         -webkit-text-stroke:1px white;
     }
     .lastImage{
-        padding-left:46.5%;
+        padding-left:44.6%;
+    }
+    #container img{
+        height:10vh;
+        width:10vh;
     }
 }

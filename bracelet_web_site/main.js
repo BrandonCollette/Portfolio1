@@ -35,7 +35,7 @@ function initializeApp() {
 
 
 
-        }, 6000);
+        }, 4000);
     }
 
     // controls what page you go to when clicking on an image of a product.

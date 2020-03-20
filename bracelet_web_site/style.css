@@ -375,3 +375,64 @@ a:link:active, a:visited:active {
 #leftColumn{
     margin-top:26vh;
 }
+@media only screen and (max-width: 980px){
+    #topBar{
+        height:15vh;
+    }
+    .far{
+        right:1vh;
+        font-size:150%;
+    }
+    #logo{
+        top:2vh;
+        position:absolute;
+    }
+    #accountButton{
+        height:15vh;
+        width:20%;
+        font-size:200%;
+        right:20%;
+    }
+    #signButton{
+        height:15vh;
+        width:20%;
+        font-size:200%;
+        right:0%;
+    }
+    #nextBar div{
+        border-style:solid;
+        width:20.6vh;
+        padding:0;
+        margin:0;
+        height:10.4vh;
+        font-size:350%;
+        line-height:4
+    }
+    .mainImage{
+        width:130%;
+    }
+    .imageTable {
+        height:30vh;
+        width:60%;
+        display:flex;
+        flex-wrap:wrap;
+    }
+    #braceletContainer{
+        border-style:solid;
+        width:167%;
+        margin-left:0;
+        margin-top:21vh;
+    }
+    #imageText{
+        font-size:600%;
+        line-height:2;
+        margin-top:35%
+    }
+    .braceText{
+        font-size:300%;
+        text-align:center;
+        border-style:solid;
+        width:62%;
+        height:7vh;
+    }
+}

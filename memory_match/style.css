@@ -119,6 +119,14 @@ aside b{
 .h2div {
     text-align: center;
 }
+.hover{
+    transition:box-shadow 0.15s,transform 0.1s,z-index 0.1s;
+}
+.hover:hover{
+    box-shadow:0px 0px 150px 50px #6dcff6;
+    transform:scale(1.05);
+    z-index:+5;
+}
 @media only screen and (max-width: 980px){
     h1{
         font-size:600%;

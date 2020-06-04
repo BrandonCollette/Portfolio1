@@ -164,7 +164,7 @@ a:link, a:visited {
 #portTitle{
     font-size:20vh;
     color:#f72146;
-    padding-left:45%;
+    padding-left:27%;
 }
 #projContainer{
     width:99.2%;
@@ -283,7 +283,7 @@ a:link, a:visited {
     margin-bottom:1.5vh;
 }
 #gameTable img:hover{
-    transform: scale(1.30);
+    transform: scale(1.025);
 }
 #videoGameText{
     line-height:1.5;
@@ -292,8 +292,37 @@ a:link, a:visited {
     text-shadow:none;
     display:flex;
     padding:2vh;
-    font-size:114%;
+    font-size:2.2vh;
 }
 .gameText{
     text-indent: 8%;
+}
+#blackground{
+    position:absolute;
+    width:100%;
+    z-index:-1;
+}
+#picWrap{
+    margin:auto;
+}
+#guitarpic{
+    width:65%;
+    position:absolute;
+    right:1%;;
+}
+#bandVid{
+    width:60%;
+    position:absolute;
+    outline:none;
+    left:38%;
+    border-radius:0;
+    display:inline-block;
+}
+#guitarText{
+    text-indent:8%;
+    display:inline-block;
+    width:36%;
+    padding:2vh;
+    font-size:2.55vh;
+    line-height:1.35;
 }

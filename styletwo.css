@@ -301,6 +301,7 @@ a:link, a:visited {
     position:absolute;
     width:100%;
     z-index:-1;
+    height:190vh;
 }
 #picWrap{
     margin:auto;
@@ -325,4 +326,20 @@ a:link, a:visited {
     padding:2vh;
     font-size:2.55vh;
     line-height:1.35;
+}
+#musicTable{
+    margin-top:8vh;
+    display:flex;
+    flex-wrap:wrap;
+}
+#musicTable img{
+    width:65vh;
+    margin:auto;
+    height:41vh;
+    transition:transform 0.15s;
+    cursor:pointer;
+    margin-bottom:1.5vh;
+}
+#musicTable img:hover{
+    transform: scale(1.025);
 }

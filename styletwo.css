@@ -275,7 +275,7 @@ a:link, a:visited {
     flex-wrap:wrap;
 }
 #gameTable img{
-    width:65vh;
+    width:32.5%;
     margin:auto;
     height:41vh;
     transition:transform 0.15s;
@@ -333,7 +333,7 @@ a:link, a:visited {
     flex-wrap:wrap;
 }
 #musicTable img{
-    width:65vh;
+    width:32.5%;
     margin:auto;
     height:41vh;
     transition:transform 0.15s;
@@ -342,4 +342,64 @@ a:link, a:visited {
 }
 #musicTable img:hover{
     transform: scale(1.025);
+}
+@media only screen and (max-width: 980px) {
+    body{
+        background-size:180% 65vh;
+    }
+    #topBar{
+        width:165%;
+    }
+    .top{
+    }
+    #gameTable{
+        width:167.5%;
+    }
+    #gameTable img{
+        height:25vh;
+    }
+    #constantModal{
+        height:25vh;
+        width:180%;
+    }
+    #selfPort{
+        width:110%;
+        height:60vh;
+    }
+    #videoGameText{
+        margin:0;
+        padding:0;
+        display:block;
+        width:83vh;
+    }
+    .gameText{
+        margin:2vh;
+    }
+    #aboutTitle, #portTitle{
+        font-size:15vh;
+        padding:0;
+    }
+    #portTitle{
+        font-size:11.8vh;
+    }
+    #blackground{
+        height:200vh;
+        width:170%;
+    }
+    #guitarText{
+        display:block;
+        width:160%;
+        margin:1vh;
+    }
+    #bandVid{
+        width:170%;
+        left:0;
+    }
+    #musicTable{
+        width:167.5%;
+        padding-top:41vh;
+    }
+    #musicTable img{
+        height:25vh;
+    }
 }

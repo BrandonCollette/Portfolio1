@@ -269,3 +269,127 @@ margin-left:2vh;
     position:absolute;
     z-index:-1;
 }
+@media only screen and (max-width: 980px) {
+    body{
+        background-size:180% 65vh;
+    }
+    #topBar{
+        width:165%;
+    }
+    .top{
+    }
+    #gameTable{
+        width:167.5%;
+    }
+    #gameTable img{
+        height:25vh;
+    }
+    #constantModal{
+        height:65vh;
+        width:180%;
+    }
+    #selfPort{
+        width:110%;
+        height:60vh;
+    }
+    #videoGameText{
+        margin:0;
+        padding:0;
+        display:block;
+        width:83vh;
+    }
+    .gameText{
+        margin:2vh;
+    }
+    #aboutTitle, #portTitle{
+        font-size:15vh;
+        padding:0;
+    }
+    #portTitle{
+        font-size:11.8vh;
+    }
+    #blackground{
+        height:200vh;
+        width:170%;
+    }
+    #guitarText{
+        display:block;
+        width:160%;
+        margin:1vh;
+    }
+    #bandVid{
+        width:170%;
+        left:0;
+    }
+    #musicTable{
+        width:167.5%;
+        padding-top:41vh;
+    }
+    #musicTable img{
+        height:25vh;
+    }
+    #welcome{
+        top:20%;
+    }
+    #nameCenter{
+        top:25%;
+    }
+    #contactButton{
+        top:53%;
+        width:30vh;
+        left:60%;
+    }
+    #riseContainer{
+        height:57.5vh;
+        width:170%;
+    }
+    .picRise{
+        height:1%;
+    }
+    #social{
+        top:57vh;
+        right:-60%;
+    }
+    #aboutContainer{
+        top:70%;
+
+    }
+    #selfPort{
+
+    }
+    .about{
+        margin:2vh;
+    }
+    #aboutSection{
+        display:block;
+        margin:0;
+        padding:0;
+        height:20vh;
+        width:170%;
+    }
+    #aboutSection img{
+        width:100%;
+        height:70vh;
+    }
+    #portContainer{
+        top:280vh;
+        width:166.6%;
+    }
+
+    .projects{
+        border-style:solid;
+        border-color:black;
+        border-width:0.1vh;
+        width:48.5%;
+        margin-top:0.5vh;
+        margin-left:0.5vh;
+    }
+    .projImg{
+        height:25vh;
+        margin:6vh;
+        width:92%;
+        margin-left:2vh;
+        cursor:pointer;
+        transition:transform 0.15s;
+    }
+}

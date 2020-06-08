@@ -77,17 +77,18 @@ a{
 #contactButton{
     position:absolute;
     top:60%;
-    left:40%;
-    height:5vh;
-    width:20%;
+    left:36%;
+    height:auto;
+    width:30%;
     border-radius:20px;
-    background-color:#f72146;
+    background-color:rgba(0,0,0,0.2);
     color:white;
     font-family:'Open Sans', sans-serif;
-    font-weight:bold;
+    font-weight:normal;
     font-size:2.1vh;
-    cursor:pointer;
+    cursor:auto;
     transition:top .25s, box-shadow .25s;
+    text-align:center;
 }
 #contactButton:hover{
     top:59.5%;

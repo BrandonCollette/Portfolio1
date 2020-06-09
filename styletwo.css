@@ -99,7 +99,7 @@ a{
     font-size:2.03vh;
 }
 #aboutTitle{
-    margin-top:5vh;
+    margin-top:90vh;
     font-size:20vh;
     color:#f72146;
     padding-left:4%;
@@ -272,15 +272,36 @@ a:link, a:visited {
 #gameTable{
     margin-top:4vh;
     display:flex;
-    flex-wrap:wrap;
+    width:500%;
 }
 #gameTable img{
-    width:32.5%;
+    width:6.95%;
     margin:auto;
     height:41vh;
     transition:transform 0.15s;
     cursor:pointer;
     margin-bottom:1.5vh;
+    overflow:hidden;
+}
+#topThree{
+    left:-105%;
+    position:absolute;
+    height:41vh;
+    width:500%;
+
+}
+#topThree img{
+    display:inline;
+
+}
+#bottomThree{
+    position:absolute;
+    height:41vh;
+    width:500%;
+    top:54vh;
+}
+#bottomThree img{
+    display:inline;
 }
 #gameTable img:hover{
     transform: scale(1.025);
@@ -357,6 +378,15 @@ a:link, a:visited {
     }
     #gameTable img{
         height:25vh;
+        width:11.5%;
+    }
+    #topThree{
+        height:25vh;
+        margin:0;
+
+    }
+    #bottomThree{
+        top:37vh;
     }
     #constantModal{
         height:25vh;
@@ -374,6 +404,7 @@ a:link, a:visited {
     }
     .gameText{
         margin:2vh;
+        text-align:center;
     }
     #aboutTitle, #portTitle{
         font-size:15vh;
@@ -390,6 +421,7 @@ a:link, a:visited {
         display:block;
         width:160%;
         margin:1vh;
+        text-align:center;
     }
     #bandVid{
         width:170%;

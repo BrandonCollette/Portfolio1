@@ -1,0 +1,262 @@
+body{
+    background: linear-gradient(162deg, rgba(208,208,208,1) 0%, rgba(119,119,119,1) 80%, rgba(36,35,35,1) 100%);
+    font-family: 'Roboto', sans-serif;
+}
+.title{
+    font-family: 'Roboto', sans-serif;
+    margin-top:40px;
+    margin-left:30px;
+    font-size:30px;
+}
+#cool{
+
+    width: 400px;
+    height: 600px;
+    background-color: gray;
+
+    position:absolute;
+    left:0; right:0;
+    top:0; bottom:0;
+    margin:auto;
+    box-shadow:
+            inset 2px 2px 1px 0 #fff,
+            20px 20px 50px 0 rgba(0,0,0,.6),
+            -5px -5px 25px 0 #fff;
+    border-radius:10px;
+}
+.squareContainer{
+    margin-top:5px;
+    height:440px;
+    display:flex;
+    flex-wrap:wrap;
+}
+.boxes{
+    height:150px;
+    width:170px;
+    margin:auto;
+}
+.neu{
+    box-shadow:
+            inset 1px 1px 1px 0 #fff,
+            6px 6px 20px 6px rgba(0,0,0,.4),
+            -3px -3px 20px 0 #fff;
+    border-radius:8px;
+}
+.fas,.far,.fa-list-ul{
+    text-shadow:0px 0px 15px blue;
+    margin-left:20px;
+    margin-top:20px;
+    font-size:25px;
+    color:#28b4e4;
+}
+.boxtitle{
+    font-weight:bold;
+    font-size:25px;
+    margin-top:10px;
+    margin-left:10px;
+}
+.status{
+    margin-top:10px;
+    margin-left:10px;
+    font-size:15px;
+    font-weight:light;
+    color:darkgray;
+}
+#classes{
+    height:100px;
+    width:380px;
+    margin-left:10px;
+    margin-top:10px;
+}
+#classTitle{
+    margin-left:20px;
+    font-size:30px;
+}
+#classDes{
+    margin-left:230px;
+    margin-top:40px;
+    color:darkgray;
+}
+#pageContainer{
+    margin:auto;
+    height:60px;
+    display:flex;
+    width:350px;
+    z-index:+1;
+}
+.pages{
+    width:50px;
+    height:50px;
+    margin:auto;
+    border-radius:100px;
+    margin-top:15px;
+    box-shadow:
+            3px 3px 7px 5px rgba(0,0,0,.4),
+            -2px -2px 10px 0 #fff;
+    cursor:pointer;
+    z-index:+1;
+}
+.pages:active{
+    box-shadow:
+            inset 2px 2px 1px 2px rgba(0,0,0,.4),
+            inset -1px -1px 1px 2px #fff;
+}
+.center{
+    margin:auto;
+    margin-top:12px;
+    margin-left:13px;
+}
+.hidden{
+    display:none !important;
+}
+#timeCont{
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    margin-top:18%;
+    height:130px;
+    border-radius:5px;
+    font-size:5vh;
+    color:aliceblue;
+
+}
+.display{
+    height:8vh;
+    margin-bottom:2vh;
+    background-color:#cccccc;
+    box-shadow:0px 0px 20px #28b4e4;
+    text-align:center;
+    font-size:7vh;
+    width:66px;
+}
+.buttons{
+    margin:auto;
+    width:155px;
+    padding:0;
+    height:6vh;
+    font-size:5vh;
+    background-color:gray;
+    color:#28b4e4;
+    border-radius:8px;
+    outline:none;
+    border:none;
+    text-shadow:0px 0px 8px #28b4e4;
+
+}
+.buttons:active{
+    box-shadow:
+            inset 2px 2px 1px 2px rgba(0,0,0,.4),
+            inset -1px -1px 1px 2px #fff;
+}
+.act{
+    box-shadow:
+            inset 2px 2px 1px 2px rgba(0,0,0,.4),
+            inset -1px -1px 1px 2px #fff;
+}
+#save{
+    height:50px;
+    font-size:15px;
+    width:100%;
+    text-align:center;
+}
+.accountInput{
+    height:30px;
+    width:250px;
+    margin:auto;
+}
+#create{
+    height:36px;
+    margin:auto;
+    font-size:20px;
+    cursor:pointer;
+}
+#inContainer{
+    height:200px;
+    width:85%;
+    margin:auto;
+    margin-bottom:300px;
+    display:flex;
+    flex-wrap:wrap;
+}
+#chart{
+    height:160px;
+    margin-left:5.5%;
+    margin-top:10px;
+
+}
+#stats{
+    width:80%;
+    margin:auto;
+    height:300px;
+}
+#welcomeBack{
+    margin:auto;
+    height:445px;
+}
+#userImg{
+    border-radius:200px;
+    height:260px;
+    margin:auto;
+}
+#welcomeText{
+    margin:auto;
+    font-size:40px;
+}
+#topTitle{
+    font-weight:bold;
+    font-size:25px;
+    margin:auto;
+    margin-top:10px;
+}
+#textInput{
+    height:30px;
+    width:300px;
+    font-size:23px;
+    margin-left:-100px;
+    margin-bottom:200px;
+
+}
+#enterButton{
+    height:50px;
+    width:50px;
+    font-size:30px;
+}
+#inputContainer{
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left:120px;
+    width:100%;
+    height:50px;
+}
+#todoContainer{
+    width:100%;
+    margin-bottom:80px;
+    overflow:hidden;
+    height:350px;
+    display:flex;
+    flex-wrap:wrap;
+
+}
+.todo{
+    border-radius:5px;
+    height:50px;
+    background-color:gray;
+    font-size:30px;
+    text-align:center;
+    margin-top:20px;
+    width:370px;
+    margin-left:11px;
+    cursor:pointer;
+    margin-right:0;
+    line-height:1.7;
+
+}
+i.fa-window-close{
+    font-size:50px;
+
+}
+.specialClass{
+    position:absolute;
+    right:18px;
+    line-height:0.2;
+}

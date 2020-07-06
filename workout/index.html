@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/ad1de804d1.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>WORKOUT</title>
+</head>
+<body>
+<div id="cool">
+    <div class="title">PROGRAM</div>
+
+    <div class="squareContainer" id="square">
+        <div class="boxes neu" id="box1">
+            <i class="fas fa-dumbbell"></i>
+            <div class='boxtitle'>Arm Training</div>
+            <div class='status'>In Progress...</div>
+        </div>
+        <div class="boxes neu" id="box2">
+            <i class="far fa-clock"></i>
+            <div class='boxtitle'>Timer</div>
+            <div class='status' id="status">Completed</div>
+        </div>
+        <div class="boxes neu" id="box3">
+            <i class="fas fa-running"></i>
+            <div class='boxtitle'>Running</div>
+            <div class='status'>Completed</div>
+        </div>
+        <div class="boxes neu" id="box4">
+            <i class="fas fa-jedi"></i>
+            <div class='boxtitle'>Jedi Training</div>
+            <div class='status'>In Progress...</div>
+        </div>
+
+        <div id='classes' class='neu'>
+            <div id='classTitle'>Courses I attended</div>
+            <div id='classDes'>Two courses in total</div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="squareContainer hidden" id="timeSquare">
+        <div id='timeCont' class="neu">
+            <input class='display' type="text" value="0" name="displayhour" id="displayhour">h
+            <input class='display' type="text" value="0" name="displaymin" id="displaymin">m
+            <input class='display' type="text" value="0" name="displaysec" id="displaysec">s
+            <button id='start' class='buttons neu'>START</button>
+            <button id='reset' class='buttons neu' >RESET</button>
+        </div>
+    </div>
+
+
+
+    <div class="squareContainer hidden" id="accountCont">
+        <h3 id="save">Save Your Progress</h3>
+        <div class="neu " id="inContainer">
+            <input name="email neu" id="email" class="accountInput" placeholder="Email">
+            <input name="name neu" id="name" class="accountInput" placeholder="Username">
+            <button id="create" class="neu buttons">Create Account</button>
+        </div>
+    </div>
+
+
+
+    <div class="squareContainer hidden" id="statsAccount">
+        <div data-aos="fade-right" id="topTitle" class="instructions">Add a Workout</div>
+        <div id="inputContainer">
+            <input data-aos="fade-up" placeholder="New Item..." id="textInput" class="neu"/>
+            <button id="enterButton" data-aos="fade-up" class="neu"> <i class="fas fa-pencil-alt center" ></i> </button>
+        </div>
+
+        <div id="todoContainer">
+        </div>
+
+    </div>
+
+
+    <div class="squareContainer hidden" id="welcomeBack">
+        <img src="images/nouser.jpg" id="userImg">
+        <div id="welcomeText">Welcome </div>
+    </div>
+
+
+
+    <div id='pageContainer'>
+        <div id='page1' class='pages neu'><i class="fas fa-home center"></i></div>
+        <div id='page2' class='pages neu'><i class="fas fa-list-ul center"></i></div>
+        <div id='page3' class='pages neu'><i class="far fa-clock center"></i></div>
+        <div id='page4' class='pages neu'><i class="far fa-user-circle center"></i></div>
+    </div>
+
+
+</div>
+
+
+
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</body>
+</html>

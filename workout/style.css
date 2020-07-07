@@ -233,8 +233,6 @@ body{
     margin-bottom:80px;
     overflow:hidden;
     height:350px;
-    display:flex;
-    flex-wrap:wrap;
 
 }
 .todo{

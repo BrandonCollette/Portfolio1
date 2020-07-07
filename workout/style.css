@@ -111,30 +111,32 @@ body{
 }
 #timeCont{
     margin: auto;
-    width: 80%;
+    width: 360px;
     padding: 10px;
-    margin-top:18%;
+    margin-top:55px;
     height:130px;
     border-radius:5px;
-    font-size:5vh;
+    font-size:40px;
     color:aliceblue;
 
 }
 .display{
-    height:8vh;
-    margin-bottom:2vh;
+    height:60px;
+    margin-bottom:10px;
     background-color:#cccccc;
     box-shadow:0px 0px 20px #28b4e4;
     text-align:center;
-    font-size:7vh;
+    margin-left:10px;
+    font-size:50px;
     width:66px;
 }
 .buttons{
     margin:auto;
     width:155px;
     padding:0;
-    height:6vh;
-    font-size:5vh;
+    height:50px;
+    font-size:40px;
+    margin-left:13px;
     background-color:gray;
     color:#28b4e4;
     border-radius:8px;
